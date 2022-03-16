@@ -2,3 +2,238 @@
 	margin: 0;
 	padding: 0;
 }
+.main-bg {
+	width: 100%;
+}
+header {
+	width: 1200px;
+	height: 130px;
+	margin-left: 85px;
+	margin-bottom: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Poppins', sans-serif;
+}
+.navbar {
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+}
+.a-link {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 36px;
+	padding: 17px 57px;
+	border: 2px solid #263238;
+	border-radius: 5px;
+}
+section {
+	width: 1200px;
+	margin-left: 85px;
+	margin-top: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section {
+	width: 500px;
+	height: 550px;
+}
+.section__horizontal {
+	display: flex;
+	align-items: flex-start;
+}
+.section__title, .section__title__2, .section__title__3, .section__title__4, .section__title__5, .section__title__6,
+.section__text, .section__text__2, .section__text__3, .section__text__4, .section__text__5, .section__text__6,
+.section__link, .section__link__2, .section__link__3, .section__link__4, .section__link__5, .section__type {
+	font-family: 'Poppins', sans-serif;
+}
+.section__icon {
+	display: flex;
+}
+.section__title {
+	width: 350px;
+	height: 200px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 65px;
+	color: #000000;
+}
+.section__text {
+    font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 40px;
+	color: #8F95A5;
+}
+.section__link {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 45px;
+	padding: 20px 60px;
+	border-radius: 10px;
+	background-color: #263238;
+	margin-right: 200px;
+	margin-top: 65px;
+}
+.link__color {
+	color: #FFFFFF;
+}
+.section__type {
+	width: 1200px;
+	height: 50px;
+	text-align: center;
+	/* margin-top: 85px; */
+	margin-bottom: 65px;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 50px;
+}
+
+.section__2,
+.section__3,
+.section__4,
+.section__5 {
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	margin: 10px 10px;
+}
+
+.section__2 {
+	width: 355px;
+	height: 700px;
+	margin-left: 85px;
+}
+.section__img__2 {
+	width: 300px;
+	height: 300px;
+	margin: 20px 10px;
+}
+
+.section__title__2, 
+.section__title__3,
+.section__title__4,
+.section__title__5{
+	width: 100px;
+	height: 50px;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 50px;
+	margin-left: 30px;
+	color: #263238;
+}
+.section__title__5 {
+	margin-left: 20px;
+}
+
+.section__text__2,
+.section__text__3,
+.section__text__4,
+.section__text__5
+{
+	font-weight: 400;
+	max-width: 300px;
+	height: 180px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #8F95A5;
+	margin-top: 5px;
+	padding: 0 20px;
+}
+
+.section__link__2,
+.section__link__3,
+.section__link__4,
+.section__link__5 {
+	margin-top: 30px;
+	padding: 20px 60px;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+	color: #FFFFFF;
+	background-color: #263238;
+	border-radius: 5px;
+	margin: 0 20px;
+	margin-right: 77px;
+	text-align: center;
+}
+.section__link__3,
+.section__link__4,
+.section__link__5{
+	position: relative;
+	bottom: 100px;
+}
+.section__link__5 {
+	/* margin-right: 455px; */
+}
+.section__3,
+.section__4 {
+	width: 355px;
+	height: 420px;
+}
+
+.section__img__3,
+.section__img__4 {
+	width: 200px;
+	height: 200px;
+	margin-top: 3px;
+	margin-left: 115px;
+}
+.section__img__4 {
+	margin-left: 25px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.section__5 {
+	width: 730px;
+	height: 262px;
+	display: flex;
+}
+.section__6 {
+	width: 1200px;
+	height: 600px;
+	margin-top: 180px;
+}
+.section__6__info {
+	margin-left: 85px;
+}
+.section__title__6 {
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 55px;
+	color: #000000;
+}
+.section__text__6 {
+	width: 530px;
+	height: 220px;
+	font-size: 17px;
+	line-height: 25px;
+	color: #8F95A5;
+	margin-top: 18px;
+}
+.section__6__displey {
+}
+.number
+
+
+
+
