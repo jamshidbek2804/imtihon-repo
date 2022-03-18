@@ -180,9 +180,9 @@ section {
 	position: relative;
 	bottom: 100px;
 }
-.section__link__5 {
-	/* margin-right: 455px; */
-}
+/* .section__link__5 {
+	margin-right: 455px;
+} */
 .section__3,
 .section__4 {
 	width: 355px;
@@ -205,7 +205,7 @@ section {
 }
 .section__5 {
 	width: 730px;
-	height: 262px;
+	height: 259.3px;
 	display: flex;
 }
 .section__6 {
@@ -230,8 +230,8 @@ section {
 	color: #8F95A5;
 	margin-top: 18px;
 }
-.section__6__displey {
-}
+/* .section__6__displey {
+} */
 
 
 
